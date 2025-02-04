@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎨 Creative Drawing App</title>
+    <link rel="stylesheet" href="drawing.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Creative Drawing Website</h1>
+<h3>From Soulful Creations</h3>
+        <canvas id="drawingCanvas" width="600" height="400"></canvas>
+        <div class="controls">
+            <label>Color <input type="color" id="colorPicker" value="#000000"></label>
+            <label>Brush Size <input type="range" id="brushSize" min="1" max="20" value="5"></label>
+            <button id="clearButton">🗑️ Clear</button>
+            <button id="downloadButton">💾 Download</button>
+        </div>
+    </div>
+    <script src="drawing.js"></script>
+</body>
+</html>
